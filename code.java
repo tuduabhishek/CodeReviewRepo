@@ -31,13 +31,12 @@ class Employee {
 
         double rais_salary(double val)
         {
-            val=em_salary+=24789.12;
+            em_salary+=24789.12;
+            val=em_salary;
             return val;
-            
-            //System.out.println();
         }
         void change_designation(String s){
-            
+            em_designation=s;
             
         }
         double display_salary(){
